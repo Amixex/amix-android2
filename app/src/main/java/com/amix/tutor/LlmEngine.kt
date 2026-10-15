@@ -48,8 +48,6 @@ class LlmEngine private constructor(private val inference: LlmInference) {
             val options = LlmInferenceOptions.builder()
                 .setModelPath(model.absolutePath)
                 .setMaxTokens(1024)
-                .setTopK(40)
-                .setTemperature(0.8f)
                 .build()
 
             val inference = LlmInference.createFromOptions(ctx, options)
