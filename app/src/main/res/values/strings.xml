@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amix</string>
+    <string name="chat_title">Amix</string>
+    <string name="input_hint">Напиши сообщение…</string>
+    <string name="send">Отправить</string>
+    <string name="download_model">Скачать ИИ-модель (~1 ГБ)</string>
+    <string name="downloading">Загрузка модели…</string>
+    <string name="downloaded">Модель готова</string>
+    <string name="download_hint">Скачивается один раз. После этого приложение работает полностью без интернета.</string>
+    <string name="error_download">Не удалось скачать модель. Проверь интернет.</string>
+    <string name="error_engine">Не удалось запустить модель на этом устройстве.</string>
+    <string name="model_desc">Qwen2.5 1.5B Instruct (q8, MediaPipe)</string>
+</resources>
